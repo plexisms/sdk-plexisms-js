@@ -1,6 +1,6 @@
-# PlexiSMS Node.js SDK
+# PlexiSMS
 
-The official Node.js library for the [PlexiSMS](https://plexisms.com) API. Send SMS, manage OTPs, and check detailed analytics with our reliable Tier-1 network.
+The official library for the [PlexiSMS](https://plexisms.com) API. Send SMS, manage OTPs, and check detailed analytics with our reliable Tier-1 network.
 
 ## Installation
 
@@ -30,7 +30,7 @@ const client = new Client('your_api_key_here');
 try {
   const result = await client.messages.create({
     to: '+243970000000', // Replace with your phone number
-    body: 'Hello from Node.js! 🚀',
+    body: 'Hello from Js! 🚀',
     senderId: 'MyApp' // Replace with your sender ID
   });
   
