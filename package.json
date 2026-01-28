@@ -1,0 +1,47 @@
+{
+    "name": "plexisms",
+    "version": "1.0.0",
+    "description": "Official Node.js SDK for PlexiSMS API",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "lint": "eslint 'src/**/*.ts'",
+        "prepublishOnly": "npm run build",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/plexisms/sdk-plexisms-js.git"
+    },
+    "keywords": [
+        "sms",
+        "plexisms",
+        "sms rdc",
+        "sms congo",
+        "sms kinshasa",
+        "otp",
+        "api",
+        "sdk"
+    ],
+    "author": "PlexiSMS Team <dev@plexisms.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/plexisms/sdk-plexisms-js/issues"
+    },
+    "homepage": "https://plexisms.com/developers",
+    "devDependencies": {
+        "@types/jest": "^30.0.0",
+        "@types/node": "^18.0.0",
+        "@typescript-eslint/eslint-plugin": "^8.54.0",
+        "@typescript-eslint/parser": "^8.54.0",
+        "eslint": "^9.39.2",
+        "jest": "^30.2.0",
+        "ts-jest": "^29.4.6",
+        "typescript": "^5.0.0",
+        "typescript-eslint": "^8.54.0"
+    },
+    "dependencies": {
+        "axios": "^1.6.0"
+    }
+}
