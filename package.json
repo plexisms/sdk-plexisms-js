@@ -4,6 +4,11 @@
     "description": "Official Node.js SDK for PlexiSMS API",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
     "scripts": {
         "build": "tsc",
         "lint": "eslint 'src/**/*.ts'",
